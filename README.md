@@ -165,34 +165,23 @@ Ao atender a esses critérios, a equipe garante que o trabalho será mais eficie
 
 
 ## Matriz de rastreabilidade
-``` mermaid
-RF001	Criar tarefas com título, descrição, data de vencimento e prioridade.	Alta	Permitir organização eficiente das tarefas.	RF002, RF003, RF006
-```
-``` mermaid
-RF002	Exibir todas as tarefas com filtros para busca.	Alta	Facilitar a visualização e gestão de tarefas.	RF001, RF004, RF009
-```
-``` mermaid
-RF003	Editar tarefas (título, descrição, data, prioridade).	Média	Garantir flexibilidade na organização das tarefas.	RF001, RF005
-```
-``` mermaid
-RF004	Marcar tarefas como concluídas e destacá-las.	Alta	Permitir rastreamento do progresso do usuário.	RF002, RF005
-```
-``` mermaid
-RF005	Excluir tarefas com confirmação.	Média	Evitar erros e dar controle ao usuário.	RF003, RF004
-```
-``` mermaid
-RF006	Enviar lembretes para tarefas com prazo.	Alta	Ajudar o usuário a não perder prazos.	RF001, RF007
-``` 
 
-``` mermaid
+RF001	Criar tarefas com título, descrição, data de vencimento e prioridade.	Alta	Permitir organização eficiente das tarefas.	RF002, RF003, RF006
+
+RF002	Exibir todas as tarefas com filtros para busca.	Alta	Facilitar a visualização e gestão de tarefas.	RF001, RF004, RF009
+
+RF003	Editar tarefas (título, descrição, data, prioridade).	Média	Garantir flexibilidade na organização das tarefas.	RF001, RF005
+
+RF004	Marcar tarefas como concluídas e destacá-las.	Alta	Permitir rastreamento do progresso do usuário.	RF002, RF005
+
+RF005	Excluir tarefas com confirmação.	Média	Evitar erros e dar controle ao usuário.	RF003, RF004
+
+RF006	Enviar lembretes para tarefas com prazo.	Alta	Ajudar o usuário a não perder prazos.	RF001, RF007
+
 RF007	Salvar tarefas de forma persistente.	Alta	Garantir que os dados não sejam perdidos.	RF001, RF006
-```
-``` mermaid
+
 RF008	Ordenar tarefas por data, prioridade ou título.	Média	Facilitar a organização e busca de tarefas.	RF002, RF009
-```
-``` mermaid
+
 RF009	Buscar tarefas por palavras-chave.	Média	Melhorar a navegação em listas grandes.	RF002, RF008
-```
-``` mermaid
+
 RF010	Sincronizar tarefas entre dispositivos.	Baixa	Acessar as tarefas de qualquer lugar.	RF007
-```
